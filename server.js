@@ -69,7 +69,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/counter', function (req,res) {
-    conter = counter +1;
+    counter = counter +1;
     res.send(counter.toString());
 });
 
