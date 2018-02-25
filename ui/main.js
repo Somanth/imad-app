@@ -15,6 +15,7 @@ button.onclick = function () {
                 span.innerHTML = counter.toString();
             }
         }
+        
     };
     
     request.open('Get', 'http://somnathsaha738.imad.hasura-app.io/counter', true);
